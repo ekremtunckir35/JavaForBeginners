@@ -1,0 +1,24 @@
+1- JDK ---> JAVA DEVELOPMENT KIT (JAVA GELISTIRME ARACI)
+    JDK ,icersinde hem java derleyicisini =(javac) hem de java yorumlayicisini(JVM)baribdiran
+    pakettir.
+    Bu paket,Java editoru haric Java gelistirme yapmak icin butun araclari icerir.
+    JDEK; javac(java derleyicisi) + JV,(java sinif paketleri)icerir.
+
+2- JRE(Java Run Time Engine)--->Java Calisma Zamani Motoru
+   JRE, java uygulamalarini calistirabilmek icin sistemde yuklu olmasi gereken bir pakettir.
+   JRE, JVM+Java Siniflari+ calisma zamani kutuphanelrini gibi paketler icerir.
+
+3- JVM(Java Virtuel Machine)---->Java Sanal Makinesi
+       JVM'nin sanal makine diline "bytecode" denmektedir.
+       Bir java uygulamsinin calisabilmesi icin o makinede JVM nin yuklu olmasi gereklidir.
+
+JAVANIN FARKLI PLATFORMLARDA CALISAN BAZI GELISTIRME ARACLARI
+
+1- Java ME (Java Micro Edition)---> mobil uygulamalar gelistirmek icin kullanilan platdform.
+
+2- Java SE (Standart Edition) ---> Programcilarin java uygulamalari gelistirmek icin kullandigi
+   platform.Applet ve masaustu uygulamalar gelistirmek icin kullanilr.
+
+3- Java EE (Enterprise Edition) ---> Javanin kurulum surumudur.
+
+4-Java FX -->Javanin internet uygulamalari gelistirmek icin kullandigi bir script dilidr.

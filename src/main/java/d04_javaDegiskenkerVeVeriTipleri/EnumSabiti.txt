@@ -1,0 +1,19 @@
+/ENUM : Kullanici tanimli ,sirali semboller kumesi olrak tanimlayabilecegimiz enum sabiti;
+   normalde mevcut olmayan,bize ozel verileri siralamak icin amaciyla kullanilir.
+
+
+        //Kullanim Sekli
+
+        //enum sabit_ismi ={a,b,c,d,e,...}
+
+ Burada enum sabiti ile birlikte parantez icerisindeki her bir sembolik sabit{a,b,c...}
+  sifirdan baslayarak sirasiyla artan bir sekilde deger alir.
+  Eger tanim yapilirken degiskenlere deger atamasi yapilmazsa ilk sabitin/degiskenin degeri(indisi)
+  sifir kabul edilir.
+
+
+
+
+
+
+

@@ -1,0 +1,16 @@
+-Algoritma---> herhangi bir problemin cozumu icin izlenecek yol
+-Algoritma ---> - acik secik olmali yani belirsizlige yer vermemeli
+                - yurutulebilir olmali
+                -sirali olmali
+                -Sonlu bir zamanda cozulebilmeli
+-Algoritmada yer alan her bir emre komut adi verilir.
+
+-ALGORITMA IFADE SEKILLERI
+
+1- Metinsel olrak duz ifade seklinde
+
+2- Sozde Kod --Pseudo Code seklinde
+      daha cok programcinin dilinde yazlimis on hazirlik kodudur.
+
+3- Akis Semalari --FLOWCHARTS
+     Algoritmanin gorsel simgelerle ya da sembollerle ifade edilmesidir.

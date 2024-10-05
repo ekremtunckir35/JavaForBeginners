@@ -1,0 +1,26 @@
+JAVADA VERI TIPLERI
+
+TAMSAYI DEGISKENLER ICIN;
+    byte  -----------> 32 bit yer kaplar.default degeri  0 dir.
+    short------------> 16 bit  yer kaplar.default degeri 0 dir.
+    int ------------->32 bit yer kaplar.Default degeri 0 dir.
+    long ------------> 64 bit yer kaplar. Default degeri 0L dir.
+
+    ONDALIKLI SAYILAR ICIN
+
+    float  -----> 32 bit yer kaplar. Default degeri 0.oF
+    double------>64 bit yer kaplar.Default degeri 0.0D
+
+    TEK BIR KARAKTER ICIN
+
+    char  16 bit yer kaplar
+
+    birden fazla karater icin
+
+    String
+
+    MANTIKSAL DEGISKENLER ICIN
+
+     boolean  8 bit yer kaplar. Default degeri FALSE dir.
+
+** Bu veri tiplerinin alabilecegi maximum ve minimum degerleri MX_VALUE ,MIN_VALUE komutlari ile,  bit kapasitelerini SIZE komutu ile bit cinsinden ogrenebiliriz.

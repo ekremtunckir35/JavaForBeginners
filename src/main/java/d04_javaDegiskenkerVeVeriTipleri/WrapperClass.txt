@@ -1,0 +1,71 @@
+WRAPPER CLASS
+
+Java'da Wrapper Class (sarmalayıcı sınıf), temel veri tiplerini (primitive types) nesnelere (objects)
+dönüştürmek için kullanılan sınıflardır.
+Bu sınıflar, Java'da her temel veri tipine karşılık gelir ve her veri tipinin bir nesne versiyonunu
+sağlar.
+Primitive tipler Java'da nesne olmadıkları için bazı koleksiyon yapılarıyla
+(örneğin ArrayList, HashMap) kullanılamazlar.
+Wrapper sınıfları sayesinde primitive tipler nesne haline getirilebilir ve bu koleksiyonlarla
+ kullanılabilir.
+
+ Java'daki Primitive Tipler ve Karşılık Gelen Wrapper Sınıfları
+
+ Primitive            Type	Wrapper Class
+ byte ----------------->	Byte
+ short----------------->    Short
+ int  ----------------->   Integer
+ long ----------------->    Long
+ float---------------->     Float
+ double -------------->    Double
+ char  --------------->   Character
+ boolean-------------->	   Boolean
+
+Wrapper Class Kullanımı
+Wrapper sınıflar genellikle iki temel amaçla kullanılır:
+
+1-Primitive tipi bir nesneye sarmak (Boxing): Primitive tipleri nesnelere sarmalayarak
+koleksiyonlar gibi nesnelerle çalışan yapılar içinde kullanılabilir hale getirir.
+
+2-Primitive tiplere ek özellikler sağlamak: Wrapper sınıfları, primitive tipler için faydalı
+metodlar içerir (örneğin, bir String'i int'e dönüştürmek).
+
+Java 5 ile birlikte gelen autoboxing ve unboxing mekanizmaları,
+primitive veri tipleri ve wrapper sınıflar arasındaki dönüşümleri otomatik hale getirmiştir:
+
+Autoboxing: Primitive tipten wrapper sınıfa otomatik dönüşüm.
+
+Autoboxing Örneği:
+int num = 10;
+Integer obj = num;  // Otomatik olarak int'den Integer'a çevrilir (autoboxing)
+
+
+Unboxing: Wrapper sınıftan primitive tipe otomatik dönüşüm.
+
+Unboxing Örneği
+Integer obj = 20;
+int num = obj;  // Otomatik olarak Integer'dan int'e çevrilir (unboxing)
+
+
+Wrapper Sınıflarının Sağladığı Yöntemler
+
+*Her wrapper sınıf, ilgili primitive tip ile ilgili çeşitli yararlı metodlar sunar.
+Örneğin, Integer sınıfı parseInt(), valueOf(), ve toString() gibi metodları içerir.
+
+String str = "123";
+int num = Integer.parseInt(str);  // String'i int'e çevirir
+Integer obj = Integer.valueOf(str);  // String'i Integer nesnesine çevirir
+
+Wrapper Sınıfların Avantajları
+
+1-Koleksiyonlarla uyumluluk:
+Koleksiyon sınıfları (ArrayList, HashMap, vb.) yalnızca nesneleri kabul eder,
+ bu nedenle primitive tipleri kullanmak için wrapper sınıflar gereklidir.
+
+ 2-Faydalı metodlar: Wrapper sınıflar, primitive tiplerle ilgili ek işlevsellik sunar
+ (örneğin, parse, toString gibi metodlar).
+
+ 3-Nesne yönelimli programlama (OOP): Wrapper sınıfları, Java'nın nesne tabanlı yapısına uyum sağlar
+  ve primitive tiplerin nesneler gibi kullanılmasına olanak tanır.
+  Bu sayede primitive veri tiplerinin nesne versiyonları ile çalışabilir ve
+  Java'nın sunduğu geniş kütüphane desteğini kullanabilirsiniz.

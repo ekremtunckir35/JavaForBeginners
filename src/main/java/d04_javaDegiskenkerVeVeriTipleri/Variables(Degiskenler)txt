@@ -1,0 +1,30 @@
+ VARIABLES(DEGISKENLER)
+
+ -Icerisinde veri saklanan,ismini ve tipini bizim belirledigimiz bellek alanlarina
+   "variable"denir.
+   -Variable,bellekte herhangi bir adresi gosteren sembolik birer isimden baska bir sey degildir.
+   -Bilgilerin gecic tutuldugu yerte bellek denir.
+   Degiskenler(variables) bilgisayar belleginde tutulur.
+ -Her degisken belirli bir veri tipine sahip olmalidir.(int,long,char gibi..)
+
+ -ATAMA OPERATORU "= "
+ -Aritmetik ya da sozel bir ifadeyi bir degiskene aktarmak icin " = " operatoru kullanilir.
+ -int toplam =0;
+
+ -Burada onemli olan nokta "=" atama opeatoru ile " ==" karsilastirma operatoru  karistirmamaktir.
+
+ "=" atama opearatoru ---> esitligin sag tarafindaki ifadenin sonucunu sol taraftaki degiskene aktarir
+
+ " ==" karsilastirma operatoru --> esit mi sorgusu yapilir.
+
+ a =4 ile a sayisina 4 degeri aktarilirken,
+ a == 4; ile a sayisi 4 e esit mi seklinde sorgu calistirilmis olur.
+
+ DEGISKENLERE ISIM VERME KURALLARI
+
+ 1- Degiskenin ilk karakteri mutlaka harf olmaldir.
+ 2-Degisken isimleri icerisinde "_" alt cizgi haric, bosluk veya diger ozel karakter kullanilmaz.
+ 3-Degisken isimleri kullanilan programlama diline ait komutlar icermemelidir.
+ 4-Degisken isimleri anlamli ifadelerden olusmaldir. String turdeki bir degisken icin
+  "strAd" seklinde isim verilebilir.
+  -Java case-sensitivedir.Yani buyuk kucuk harf ayriumi yapar.

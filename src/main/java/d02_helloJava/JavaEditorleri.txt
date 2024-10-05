@@ -1,0 +1,55 @@
+-Java programnin calistirmak icin oncelikle Oracle web adresinden JDK surumunu indirmek gerekiyor.
+
+-Java Dilinin Gramer Yapisi
+-Java komut satiri noktali virgul ";" karakteri ile sonlandirlilmalidir.
+-Java dili kucuk buyuk harf ayrimi yapar.Yani class deyimi  Class seklinde yazildiginda hata verir.
+-Aciklama yani yorum satiri
+   "//" karakteri---->tek satirlik aciklama yapilacaksa kullanilir.
+   "/*...*/" karakteri  birden fazla satirlik aciklama yapilacaksa  kullanilir.
+
+   JAVA PROGRAM YAPISI
+
+   -import .java.util.Scanner;    -------------->Kutuphane dosyalari
+   -public class Hello            -------------->Sinif(class) adi
+   -public static void main(String[]args0{------> main foksiyonu
+   -{ Basla                       -------------->Degiskenlerin tanimlandigi,baslangic
+   -Tanimlama blogu               --------------> degerlerinin atandigi kisim
+
+   -Program Govdesi             ---------------> int a;
+                                                 int b; //islem ve hesaplamalar
+   - Ana Fonksiyon sonu------------------------>System.out.println("Merhaba");
+                                                System.out.print(a);
+
+   } Dur --------------------------------------> }main fonksiyonu sonlandirilir.
+                                                 }class sonlandirilir.
+
+
+-IMPORT DEYIMI VE PAKET KAVRAMI
+
+-Javada butun siniflar bir paket icerisinde yer alir.
+-PACKAGE(PAKET)-->Birbiri ile iliskili siniflarin ayni klasor altinda toplanmasi islemlidir.
+-Bir sinifin kendisiyle ayni pakette olmayan basla bir sinifi kullanabilmesi icin ,class tanimindan once import edilmesi -yani cagrilmasi
+  gerekir.Bu sadece siniflarin tam olrak hangi pakette oldugu anlamina gelir.Bunun icin "import"
+  deyimi kullanilir.
+
+CLASS(SINIF) KAVRAMI
+
+-Her java programi bir class icerisinde yer alir.Javada siniflar "class" kelimesi ile tanimlanir.
+Kullanimi-------> public class Hello {..................} seklindedir.
+Burada onemli olan ".java uzantili" dosyanin ismi ile class isminin ayni olmasidir.
+
+
+MAIN FONKSIYONU -------------main
+
+main metot----> programin baslangic noktasini olusturur.
+-yazdigimiz program birden fazla fonksiyonb veya alt programdan olusabilir.Fakat bunlardan bir
+  tanesi mutlaka "public static void main(String[]args)" seklinde ana fonksiyon olmalidir.
+
+  -public ----> metoda erisim herkse aciktir.
+  -static----->metodun-fonksiyonun snif tarfindan paylasildigini
+  -void------> metodun geriye deger dondurmedigini
+  -main -----> ana fonksioyn
+  -(String[] args)-----> metodun args isimli String tipinde parametre aldigini belirtlir.
+
+  {} --> kod blogu parantezleri---> kodlarin yazildigi bolum
+

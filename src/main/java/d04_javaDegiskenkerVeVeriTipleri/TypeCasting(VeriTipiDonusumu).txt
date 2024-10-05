@@ -1,0 +1,58 @@
+Java'da veri tipi dönüşümleri (type casting) iki ana kategoriye ayrılır:
+
+ otomatik dönüşüm (implicit casting) ve
+  manuel dönüşüm (explicit casting).
+
+1-Otomatik Dönüşüm (Implicit Casting)
+Otomatik dönüşüm, Java'nın küçük boyutlu veri tiplerini büyük boyutlu veri tiplerine
+otomatik olarak çevirmesidir. Bu işlem veri kaybı riskini içermez.
+Örneğin, int türündeki bir veri long, float veya double türüne otomatik olarak dönüştürülebilir.
+   int num = 100;
+   double d = num;  // Otomatik olarak int'yi double'a çevirir
+
+2- Manuel Dönüşüm (Explicit Casting)
+
+Manuel dönüşüm, büyük bir veri tipinin daha küçük bir veri tipine çevrilmesi gerektiğinde kullanılır.
+Bu dönüşüm veri kaybı riskini içerir, çünkü büyük veri tiplerinde bulunan tüm bilgiler
+ küçük veri tipine sığmayabilir. Manuel dönüşüm yaparken, dönüşümü açıkça belirtmeniz gerekir.
+
+ double d = 9.78;
+ int num = (int) d;  // Manuel olarak double'dan int'e dönüşüm yapılır
+
+
+ Bu dönüşümden sonra num değişkeni yalnızca tam sayı kısmını alır ve 9 olur,
+ kesirli kısmı atılır.
+
+ Yaygın Veri Tipi Dönüşümleri
+
+ Primitive Veri Tipleri Arasında:
+
+ int ➡️ double: Otomatik.
+ double ➡️ int: Manuel (kesirli kısmı kaybeder).
+ char ➡️ int: Otomatik (ASCII değerini alır).
+
+ Wrapper Sınıflar ve String Dönüşümü:
+
+ Primitive’den Wrapper’a: Otomatik olarak yapılır (Java 5'ten itibaren otoboxing).
+
+ String’den primitive türüne: Integer.parseInt(), Double.parseDouble() gibi yöntemlerle yapılır.
+
+ String str = "123";
+ int num = Integer.parseInt(str);  // String'i int'e çevirir
+
+ ** implicit Casting yani otomatik donusumde
+
+ byte--->short--->int--->long--->float--->double
+
+ short + int ---------->int e donusur
+ int + long ----------->long a donusur.
+ int + float----------->float a donusur.
+ float + double ------->double donusur.
+ int +double ---------->double donusur.
+
+ Tabloda dikkat ettigimizde daha az duyarli veri tipi (byte,short,int gibi),
+ daha buyuk duyarlilikli veri tipi icinde (float,double)yer alabilirken,tersi durum gecersizdir.Yani
+
+    float fiyat = 45; ifadesi gecerli iken
+    int say =0.06;ifadesi gecersizdir.
+

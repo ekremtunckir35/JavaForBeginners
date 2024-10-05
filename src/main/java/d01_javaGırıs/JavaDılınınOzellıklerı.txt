@@ -1,0 +1,21 @@
+Java Dlının Temel Ozellıklerı
+
+-Simple(Basit) Java dili kisa ve ozlu yapiya sahip,ogrenmesi kolay bir dildir.
+-Secure(Guvenli)  yukleme esanasinda Byte-code dogrulamasi yapilir.
+-Portable(Tasinabilirlik) her ortamda calisabilir.
+-Object Orient(Nesne Yonelimli)
+-Robust(Saglam)..yani probramlamadaki hatalar daha yazlim asamasinda anlasilmaktadir.
+-Multitasking-Multithereading(cok isli -cok kanalli)
+   multitasking--> birden fazla isin bilgisayarda eszamanli yapilabilmesidir.
+   multiuthereading-->
+
+-Platformlardan bagimsizdir."Bir kez derle her yerde calistir"
+-interpreted  yani java hem derleyici hem yorumlayici kullanir.
+-High performance  yuksek performans yani java diger dillere gore yavas olmakla birlikte,
+      Java byte kodu  calisma hizi en iyi sekilde optimize eder.
+-Distributed(Dagitik); yani birden fazla bilgisayarda calisan programlarin birbiriyle uyumlu
+                       calisabilmesidir.
+-Dynamic(Dinamik) ; yani javada bir programin kutuphanelrinin moduller,siniflar birbirine
+                  baglanmadsi calisma zamaninda(run-time) yapilir.Kullanilan programlarin
+                  yapisi degitiginde bu birimleri kullanan programin yapisi degismez.
+-Ucretsizdir.
