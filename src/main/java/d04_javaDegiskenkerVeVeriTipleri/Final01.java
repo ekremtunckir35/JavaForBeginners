@@ -1,4 +1,4 @@
-package d05_input_output_print;
+package d04_javaDegiskenkerVeVeriTipleri;
 
 public class Final01 {
 

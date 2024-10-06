@@ -1,0 +1,34 @@
+java da  klavyeden veri girisi icin SCANNER sinifina ait metotlar kullanilir.
+Java da disaridan-klavyeden-konsoldan veri girisini dialog/iletisim kutusu ile de yapabiliriz.
+Veri girisi icin "Scanner" ve "showInputDialog" yontemlerini tanimlayabiliriz.
+
+int a ;                                 int a;
+a =new scanner(System.in).nextint();    a=integer.parselInt(JoptionPane.showInputDialog("..."));
+
+
+
+SCANNER SINIFINA AIT METOTLAR
+
+Java veri cikisi icin System.out
+     veri girisi icin System.in
+ifadelerini kullanir.
+
+nextInt() ----> Kalveyeden girilen ifadeyi integer turune ceviri.
+                 int a = new Scanner(System.in).nextInt();
+
+nextFloat() ----> ondalikli sayi
+                  float a =new Scanner(System.in).nextFloat();
+
+nextDouble()-------> double a =new Scanner(System.in).nextDouble();
+
+next() ------------>Klavyeden girilen ilk kelimeyi okur.space karakterine kadar olan kismi kalir.
+
+                     String a =new Scanner(System.in)next();
+
+nextLine ()-------->Klavyeden girilen tum satiri okur.
+                    String a =new Scanner(System.in).nextLine();
+
+next().charAt(0)-----> klavyeden girilen ifadenin ilk satirini okur.
+                     char is =tara.next().charAt( 0) ;
+
+

@@ -1,0 +1,29 @@
+Java da konsoldan veri giris cikisi yerine dialohg kutusu ile de GUI ortaminda veri giris
+ cikisi yapilabilir.
+
+ Dialog pencere ve metotlari "javax.swing.JOptionPane" paketi icerisinde bulunur.
+ Dialog pencerelerini kullanabilmek icin programin basinda "JOptionPane"kutuphanesini import etmek gerekir.
+
+
+
+veri girisi icin  "showInputDialog" yontemi kullanilir.
+
+ JOptionPane.showInputDialog("null,Adiniz?") seklinde yazilir.
+
+ veri cikisi icin ----> JOptionPane.showMessageDialog(null,"Merhaba);
+
+  diger dialog pencereleri
+
+
+showMessageDialog(mesaj( );-------> kullaniciya bilgi veren iletisim kutusu
+
+showInpurDialog(veri girisi);----->Kullanicidan bilgi almak icin
+                                     String tipinde kullanilr.
+
+showConfirmDialog(onay);------->kullanicidan alinann cevaba gore
+                               "Yes","No","Cancel" gibi islemleri saglar
+
+showOptionDialog(secim);----> Kullanicidan kendisine sunulan seceneklerden birisini secmesini
+                         istenildiginde kullanilan bir iletisim kutusudur
+
+

@@ -1,4 +1,4 @@
-package d05_input_output_print;
+package d04_javaDegiskenkerVeVeriTipleri;
 
 
 enum gunler{Pazartesi,Sali,Carsamba,Persembe,Cuma,Cumartesi,Pazar}

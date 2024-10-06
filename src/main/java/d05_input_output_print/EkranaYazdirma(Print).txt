@@ -1,0 +1,22 @@
+JAVADA GIRIS CIKIS ISLEMLERI
+
+Javada konsoldan veri giris-cikis islemleri icin System sinifinin "in","out" ve "err" degiskenlerine
+ait metotlar kullanilir.
+
+System.in ------------> Klavyeden veri girisi icin kullanilir.
+System.out -----------> Verilerin, islem sonuclarinin konsoldan ekrana yazdirilmasi icin kullanilir.
+System.err ----------->  Hata mesajlarini almada kullanilir.
+
+PRINT KOMUTLARI
+
+Komut ekranina karakter,mesaj veya bir degisken yazdirmak icin Java da su komutlar kullanilabilir.
+     System.out.printf();
+     System.out.println();
+     System.out.print();
+     System.out.format();
+
+*Burada onemli olan tum print komutlarinin basinda "System.out" ifadesinin olmasidir.
+
+bu ne demek---> System adli sinifin out ozelliginin  print(),println(),print() veya format isimli metodunu
+calistir anlamina gelir.
+
