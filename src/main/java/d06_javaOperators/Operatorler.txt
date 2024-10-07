@@ -1,0 +1,31 @@
+Operator  ----> islem yapmamizi saglayan isaretlerdir.
+Java da operatorler
+    -Aritmatik
+    -Mantiksal
+    -Karsilastirma
+    -Artirma ve azaltma
+    Aritmetiksel atama
+    Bitsel operatorler
+
+
+-Operatorlde islem yaparken  islem onceligine dikkat etmek gerekir.
+
+
+OPERATORLERDE ISLEM ONCELIGI
+
+-Atama opeatorleri haric ayni oncelige sahipse soldaki operatorleden baslar.
+
+Islem onceligi sirasina
+   1-Parantez ici
+   2-Matematiksel fonksiyonlar(Math.pow(), Math.sqrt() gibi
+   3-Son artirma azaltma  ...dgskn++ , dgskn--
+   4-on artirma azaltma ... ==abc, --abc,+abc,-abc,
+   5-Carpma,bolme,kalan
+   6-Toplama,cikarma
+   7-Kaydirma  .... <<,>>, >>>
+   8-Karsilastirma
+   9-Esit mi,Esit degil mi?
+   10-
+   11-
+   12-
+

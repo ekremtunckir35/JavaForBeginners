@@ -1,0 +1,39 @@
+bilgisayarlarin anladigi dil 1 ve 0 lardan olusan makine dilidir.
+Yani ikili sayi sistemin kullanir.
+ikili sistemlerde herbir basamaga "bit" denir.
+8 bit  = 1 byte
+Bellek ve memory birimleri byte cinsinden ifade edilir.
+
+sayi sistemi             taban           sayilar                   java oneki
+------------            ------           -------                   ----------
+ikili(Binary)             2               01                       '0B','0b'
+Sekizli(Octal)            8              01234567                  '0'//sifir
+Onlu(Decimal)            10             0123456789                 '0x'
+Onaltili(Hexadecimal)     16            0123456789ABCDEF
+
+
+ornek ---> int tipinde onlu tabanda 2018 sayisini ifade delim
+
+sayi1 = 2018;    //decimal format
+
+sayi1 = 03742    //Octal format      0 oneki ile basliyor
+
+sayi1 =0x7E2     //Hexadecimal      0x oneki ile basliyor
+
+sayi1 = 0b11111100010;   //binary     0b obeki ile basliyor
+
+****************************************
+JAVADA SAYI SISTEMLERININ BIRBIRINE DONUSUMU
+
+Java da onlu(Decimal) sayilari onaltili(Hexadecimal),
+        sekizli(Octal) ve ikili(Binary) sayi sistemlerine donusturmek icin
+
+     Integer.toBinaryString();
+     Integer.toHexString();
+     Integer.toOctalString() metotlari kullanilir.
+
+ Tessi islemlerde yani String tipte fakat onaltili(Hexdecimal)
+                                          sekizli( octal)
+                                          ikili(Binary)
+  sayi formatindaki rakamalri Onlu(Decimal) sayi sistemine donusturmek icin
+    parseInt("sayi", taban ) komutu kullanilr.
